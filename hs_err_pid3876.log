@@ -1,0 +1,87 @@
+#
+# An unexpected error has been detected by Java Runtime Environment:
+#
+#  Internal Error (classFileParser.cpp:2923), pid=3876, tid=4756
+#  Error: ShouldNotReachHere()
+#
+# Java VM: Java HotSpot(TM) Client VM (11.0-b15 mixed mode windows-x86)
+# If you would like to submit a bug report, please visit:
+#   http://java.sun.com/webapps/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x01d49800):  JavaThread "Unknown thread" [_thread_in_vm, id=4756, stack(0x00210000,0x00260000)]
+
+Stack: [0x00210000,0x00260000]
+
+[error occurred during error reporting (printing native stack), id 0xc0000005]
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x01d49800 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=4756, stack(0x00210000,0x00260000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Dynamic libraries:
+0x00400000 - 0x00424000 	D:\Program Files (x86)\Java\jre6\bin\javaw.exe
+0x779c0000 - 0x77b40000 	C:\Windows\SysWOW64\ntdll.dll
+0x76e20000 - 0x76f20000 	C:\Windows\syswow64\kernel32.dll
+0x755c0000 - 0x75606000 	C:\Windows\syswow64\KERNELBASE.dll
+0x754a0000 - 0x75540000 	C:\Windows\syswow64\ADVAPI32.dll
+0x76ae0000 - 0x76b8c000 	C:\Windows\syswow64\msvcrt.dll
+0x76900000 - 0x76919000 	C:\Windows\SysWOW64\sechost.dll
+0x76800000 - 0x768f0000 	C:\Windows\syswow64\RPCRT4.dll
+0x74c20000 - 0x74c80000 	C:\Windows\syswow64\SspiCli.dll
+0x74c10000 - 0x74c1c000 	C:\Windows\syswow64\CRYPTBASE.dll
+0x74d80000 - 0x74e80000 	C:\Windows\syswow64\USER32.dll
+0x75410000 - 0x754a0000 	C:\Windows\syswow64\GDI32.dll
+0x75400000 - 0x7540a000 	C:\Windows\syswow64\LPK.dll
+0x76f20000 - 0x76fbd000 	C:\Windows\syswow64\USP10.dll
+0x75540000 - 0x755a0000 	C:\Windows\system32\IMM32.DLL
+0x769c0000 - 0x76a8c000 	C:\Windows\syswow64\MSCTF.dll
+0x7c340000 - 0x7c396000 	D:\Program Files (x86)\Java\jre6\bin\msvcr71.dll
+0x6d800000 - 0x6da56000 	D:\Program Files (x86)\Java\jre6\bin\client\jvm.dll
+0x76980000 - 0x769b2000 	C:\Windows\syswow64\WINMM.dll
+0x743f0000 - 0x7443b000 	C:\Windows\system32\apphelp.dll
+0x6d280000 - 0x6d288000 	D:\Program Files (x86)\Java\jre6\bin\hpi.dll
+0x755b0000 - 0x755b5000 	C:\Windows\syswow64\PSAPI.DLL
+0x6d7b0000 - 0x6d7bc000 	D:\Program Files (x86)\Java\jre6\bin\verify.dll
+0x6d320000 - 0x6d33f000 	D:\Program Files (x86)\Java\jre6\bin\java.dll
+0x6d7f0000 - 0x6d7ff000 	D:\Program Files (x86)\Java\jre6\bin\zip.dll
+
+VM Arguments:
+jvm_args: -Dvce.launchers=org.eclipse.ve.internal.java.vce.launcher.remotevm.JFCLauncher -Dvce.launcher.class=com.eq.Eq -Dfile.encoding=GBK -Xbootclasspath:F:\android-sdk-windows\platforms\android-10\android.jar 
+java_command: org.eclipse.ve.internal.java.vce.launcher.remotevm.JavaBeansLauncher
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+JAVA_HOME=D:\Program Files (x86)\Java\jdk1.6.0_10
+CLASSPATH=D:\web\apache-tomcat-7.0.22\bin;D:\Program Files (x86)\Java\jdk1.6.0_10\bin
+PATH=D:/Program Files (x86)/Java/jre6/bin/client;D:/Program Files (x86)/Java/jre6/bin;D:/Program Files (x86)/Java/jre6/lib/i386;F:/code/xdctools_3_20_08_88;C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Common Files\Thunder Network\KanKan\Codecs;QUARTUS_ROOTDIR\bin;F:\android-sdk-windows\tools;F:\android-sdk-windows\platform-tools;D:\Program Files (x86)\Java\jdk1.6.0_10\bin;C:\Program Files (x86)\Common Files\Ulead Systems\MPEG;C:\Program Files (x86)\Microsoft SQL Server\80\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\90\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;C:\Program Files (x86)\Microsoft SQL Server\90\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft Visual Studio 8\Common7\IDE\PrivateAssemblies\;C:\Program Files\MATLAB\R2012a\runtime\win64;C:\Program Files\MATLAB\R2012a\bin;F:/code/xdctools_3_20_08_88;D:\Program Files (x86)\Java\jdk1.6.0_10\bin;F:\android-sdk-windows\tools;F:\android-sdk-windows\platform-tools;F:\eclipse;
+USERNAME=zhangyajie
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 37 Stepping 2, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows NT 6.1 Build 7600 
+
+CPU:total 4 (8 cores per cpu, 2 threads per core) family 6 model 5 stepping 2, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, ht
+
+Memory: 4k page, physical 2012716k(523464k free), swap 4025432k(1464044k free)
+
+vm_info: Java HotSpot(TM) Client VM (11.0-b15) for windows-x86 JRE (1.6.0_10-rc2-b32), built on Sep 12 2008 00:52:11 by "java_re" with MS VC++ 7.1
+
+time: Sat May 12 20:20:45 2012
+elapsed time: 0 seconds
+
