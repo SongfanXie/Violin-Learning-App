@@ -9,7 +9,7 @@ time, under 4 different modes, and with friendly GUI.
 * Embedded developing skills
 * Touch interface based on multi-points
 ## My Contribution:
-# As the team leader, responsible for designing the
+* As the team leader, responsible for designing the
 recognition algorithm of audio, mainly use the Fast Fourier Transform (FFT) to convert and analysis the audio stream
 in the frequency domain.
 * GUI design.
