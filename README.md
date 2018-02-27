@@ -2,7 +2,6 @@
 
 On Android platform, design a violin Audio collection system to compare with the previously recorded music note. It also comes with the function of correcting the error during the while playing the violin in real
 time, under 4 different modes, and with friendly GUI.
-Time
  Project Description:
 l Core skills:
 § Necessary music knowledge
